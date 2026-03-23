@@ -4,7 +4,7 @@ The Ninth Gear is a modern, responsive, and beautifully designed application ded
 
 ## ✨ Features
 
-- **Live Driver Standings**: Real-time standings
+- **Live Driver Standings**: Real-time standings Scapped directly from F1 official Standings site.
 - **Race Archive**: Browse all 22 Grands Prix of the 2026 season. View completed race results or predict upcoming races.
 - **Detailed Race Classifications**: Dive deep into completed races to see the podium finishers, full driver classification, fastest laps, and DNF analysis.
 - **ML Race Predictor**: For upcoming races, our custom-built scikit-learn Random Forest/Gradient Boosting model predicts the podium, full grid finish order, DNF risk, fastest lap, and team points given the driver's historical and circuit-specific pace.
