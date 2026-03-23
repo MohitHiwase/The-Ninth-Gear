@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #131313;
+    color: #e5e2e1;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-newsreader { font-family: 'Newsreader', serif; }
+  .signature-glow {
+    background: linear-gradient(135deg, #82ef5c 0%, #67d243 100%);
+  }
+  .glass-panel {
+    background: rgba(53, 53, 53, 0.6);
+    backdrop-filter: blur(20px);
+  }
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+}
