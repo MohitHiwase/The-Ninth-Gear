@@ -311,5 +311,5 @@ poetry.toml
 pyrightconfig.json
 
 DB/
-
+RaceData/
 # End of https://www.toptal.com/developers/gitignore/api/python,node
