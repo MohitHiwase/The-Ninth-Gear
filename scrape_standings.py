@@ -7,6 +7,7 @@ and stores them in the drivers.db SQLite database.
 import os
 import re
 import sqlite3
+from io import StringIO
 import requests
 import pandas as pd
 
@@ -27,7 +28,7 @@ def scrape_standings():
     response = requests.get(URL, headers=HEADERS, timeout=15)
     response.raise_for_status()
 
-    tables = pd.read_html(response.text)
+    tables = pd.read_html(StringIO(response.text))
     df = tables[0]
     df = df.dropna(axis=1, how="all")
 
